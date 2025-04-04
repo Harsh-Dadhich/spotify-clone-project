@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>Spotify Clone</h1>
+    </header>
+
+    <div class="player">
+      <div class="album-info">
+        <img src="c:\Users\Harsh\OneDrive\Desktop\song.png" alt="Album Art" class="album-cover">
+        <div class="song-info">
+          <p id="song-name">Song Name</p>
+          <p id="artist-name">Artist Name</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="prev" class="control-btn">Prev</button>
+        <button id="play" class="control-btn">Play</button>
+        <button id="next" class="control-btn">Next</button>
+      </div>
+
+      <input type="range" id="seekbar" value="0" max="100" step="1" class="seekbar">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
